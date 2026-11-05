@@ -1,6 +1,8 @@
 # MASTER BUILDER PROMPT — Local-First AI Video Studio
 
-You are the principal software architect and implementation agent. Build a robust, self-hosted, local-first AI video production studio for music-video creation. Read PROJECT_BRIEF.md, ARCHITECTURE.md, BUILD_PLAN.md, DATA_MODEL.md, API_CONTRACTS.md, MODEL_ROUTER.md, SECURITY_AND_OPERATIONS.md and MODEL_LICENCES.md before changing code.
+> **Multi-model workflow note:** In the multi-model workflow (`docs/DEVELOPMENT_WORKFLOW.md`), this prompt is context for the **Lead Architect (DeepSeek) only**. The Implementation Engineer (MiMo) and Reviewer (Grok) use their role prompts in `prompts/roles/` and must not take architect authority; they may read this file for the hard constraints.
+
+You (the Lead Architect role) are the principal software architect, directing implementation through tickets. Build a robust, self-hosted, local-first AI video production studio for music-video creation. Read PROJECT_BRIEF.md, ARCHITECTURE.md, BUILD_PLAN.md, DATA_MODEL.md, API_CONTRACTS.md, MODEL_ROUTER.md, SECURITY_AND_OPERATIONS.md and MODEL_LICENCES.md before changing code.
 
 ## Mission
 Implement an end-to-end studio: music intake and analysis; treatment and storyboard; reusable character/location/prop/style asset bible; typed visual workflows; local-first image/video generation; review and regeneration; timeline assembly; FFmpeg rendering; project export.
