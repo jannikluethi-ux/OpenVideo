@@ -1,0 +1,3 @@
+# Phase 0 — Foundation
+
+Read the master builder prompt and specifications. Implement Phase 0 only: monorepo, package manager, strict TypeScript, lint/format/test setup, validated env config, Docker Compose for PostgreSQL and Redis, CI, health-check skeletons and ADRs. Include scripts for install/dev/lint/typecheck/test/infra. Keep GPU optional and mock mode available. Commit .env.example only, never secrets. Pin dependencies and review licences. Document clean-clone setup. Run all checks and report changed files, commands, results and acceptance status. Do not implement later phases.
