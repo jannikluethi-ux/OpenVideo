@@ -1,0 +1,3 @@
+# Phase 4 — Workflow Engine
+
+Build typed node canvas and backend DAG engine. Nodes declare schemas, capabilities, resource requirements and adapter. Validate types, missing inputs, cycles and unavailable capabilities before queueing. Use BullMQ; persist immutable run snapshots; implement progress, cancellation, bounded retries, logs and recovery. Provide deterministic mock nodes. Test DAG ordering, retries, cancellation, restart recovery and duplicate prevention. Never execute arbitrary shell or user code.
