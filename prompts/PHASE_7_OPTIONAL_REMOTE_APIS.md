@@ -1,0 +1,3 @@
+# Phase 7 — Optional Remote APIs
+
+Only implement for explicitly selected providers after local-first MVP works. Use official APIs and comply with terms. Disabled by default; server-side keys only. Before each remote job show provider/model, estimate or unknown-cost warning, data leaving machine, and require explicit approval plus ceiling/acknowledgement. Record actual usage. No silent fallback. Test approval enforcement and secret redaction.
