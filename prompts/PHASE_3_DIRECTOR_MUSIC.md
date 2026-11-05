@@ -1,0 +1,3 @@
+# Phase 3 — Music and Director Workflow
+
+Implement audio ingest metadata, waveform, editable song section markers and analysis worker. Estimate BPM/energy only where supported; label estimates and permit manual correction. Implement treatment → sequence → scene → shot planning with validated schemas. AI plans remain drafts until user approval. Start with mock LLM adapter. Test audio metadata, section editing, plan validation and approval states. Never claim beat detection is exact.
