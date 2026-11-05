@@ -15,8 +15,16 @@
 - `SECURITY_AND_OPERATIONS.md` — secrets, sandboxing, backups and deployment.
 - `prompts/MASTER_BUILDER_PROMPT.md` — the complete environment-level build prompt.
 - `prompts/PHASE_*.md` — prompts to execute each build phase independently.
+- `AGENTS.md` — rules every AI model must read first.
+- `docs/DEVELOPMENT_WORKFLOW.md` — multi-model workflow (DeepSeek architect / MiMo implementer / Grok reviewer).
+- `prompts/roles/` — role system prompts: `ARCHITECT_DEEPSEEK.md`, `IMPLEMENTER_MIMO.md`, `REVIEWER_GROK.md`.
+- `docs/templates/` — ticket, review findings and ADR templates.
+- `docs/adr/` — architecture decision records.
+- `.github/pull_request_template.md` — PR checklist.
 - `ops/LOCAL_DEV.md` — local development setup expectations.
 - `.gitignore` — baseline exclusions for a GitHub repository.
+
+**How we build:** see `docs/DEVELOPMENT_WORKFLOW.md`.
 
 ## Recommended repository name
 
