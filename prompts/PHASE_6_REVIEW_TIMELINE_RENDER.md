@@ -1,0 +1,3 @@
+# Phase 6 — Review, Timeline and Render
+
+Implement shot approve/reject/annotate/regenerate states, timeline manifest editor and render queue. Use FFmpeg/ffprobe for validation, trim, scale, frame-rate conversion, audio mux and export. Remotion only for programmatic compositions. Timeline manifest stores clip order, source, in/out, track, transition and audio mapping. Render outside API process. Test fixture-media end-to-end render and project export. Do not claim professional NLE parity.
