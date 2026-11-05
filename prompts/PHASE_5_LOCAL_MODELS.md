@@ -1,0 +1,3 @@
+# Phase 5 — Local Model Workers
+
+Implement worker registration, health and capability discovery. Add ComfyUI local image adapter, one local LLM runtime (choose Ollama or vLLM for target deployment), Python audio worker and local video adapter contract. Integrate a specific video model only after verifying exact release, weights, hardware and licence; record in MODEL_LICENCES.md. No remote fallback. Test mock and local paths; document exact hardware used for any successful run.
